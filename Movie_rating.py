@@ -1,6 +1,6 @@
 
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import numpy as np 
+import pandas as pd 
 
 import os
 for dirname, _, filenames in os.walk('/kaggle/input'):
@@ -10,7 +10,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 import warnings
 warnings.filterwarnings('ignore')
 
-data =  pd.read_csv('/Users/dev_joshi/Desktop/IMDB-Movie-Data.csv')
+data =  pd.read_csv('./IMDB-Movie-Data.csv')
 
 data.head(10)
 
